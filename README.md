@@ -1,5 +1,6 @@
-vis.js
-==================
+# vis.js
+
+[![Backers on Open Collective](https://opencollective.com/vis/backers/badge.svg)](#backers) [![Sponsors on Open Collective](https://opencollective.com/vis/sponsors/badge.svg)](#sponsors) [![Join the chat at https://gitter.im/vis-js/Lobby](https://badges.gitter.im/vis-js/Lobby.svg)](https://gitter.im/vis-js/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 <a href="https://github.com/almende/vis/blob/develop/misc/we_need_help.md">
   <img align="right" src="https://raw.githubusercontent.com/almende/vis/master/misc/we_need_help.png">
@@ -21,6 +22,24 @@ The library consists of the following components:
 
 The vis.js library was initially developed by [Almende B.V](http://almende.com).
 
+## Badges
+
+[![NPM](https://nodei.co/npm/vis.png?downloads=true&downloadRank=true)](https://nodei.co/npm/vis/)
+
+[![Dependency Status](https://david-dm.org/almende/vis/status.svg)](https://david-dm.org/almende/vis)
+[![devDependency Status](https://david-dm.org/almende/vis/dev-status.svg)](https://david-dm.org/almende/vis?type=dev)
+
+[![last version on CDNJS](https://img.shields.io/cdnjs/v/vis.svg)](https://cdnjs.com/libraries/vis)
+[![GitHub contributors](https://img.shields.io/github/contributors/almende/vis.svg)](https://github.com/almende/vis/graphs/contributors)
+[![GitHub stars](https://img.shields.io/github/stars/almende/vis.svg)](https://github.com/almende/vis/stargazers)
+
+[![GitHub issues](https://img.shields.io/github/issues/almende/vis.svg)](https://github.com/almende/vis/issues)
+[![Percentage of issues still open](http://isitmaintained.com/badge/open/almende/vis.svg)](http://isitmaintained.com/project/almende/vis "Percentage of issues still open")
+[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/almende/vis.svg)](http://isitmaintained.com/project/almende/vis "Average time to resolve an issue")
+[![Pending Pull-Requests](http://githubbadges.herokuapp.com/almende/vis/pulls.svg)](https://github.com/almende/vis/pulls)
+
+[![Code Climate](https://codeclimate.com/github/almende/vis/badges/gpa.svg)](https://codeclimate.com/github/almende/vis)
+
 ## Install
 
 Install via npm:
@@ -35,16 +54,6 @@ Link via cdnjs: http://cdnjs.com
 
 Or download the library from the github project:
 [https://github.com/almende/vis.git](https://github.com/almende/vis.git).
-
-
-### Installing module `canvas`
-
-Module `canvas` is only required if you need to run `vis.js` on `node.js` and require actual output. It is not required for regular usage in a browser.
-
-Currently, the unit tests use a mock object for canvas which has limited but adequate functionality. If `canvas` is installed, that will be used silently in place of the mock object.
-
-The issue with `canvas` is that it has an external dependency to `cairo`. This needs to be installed outside of the regular install as done by `npm`. Please consult [`node-canvas` github page](https://github.com/Automattic/node-canvas/wiki#desktop) for the correct installation procecure your platform
-
 
 ## Load
 
@@ -332,9 +341,6 @@ module: {
 
 There is also an [demo-project](https://github.com/mojoaxel/vis-webpack-demo) showing the integration of vis.js using webpack.
 
-
-
-
 ## Test
 
 To test the library, install the project dependencies once:
@@ -344,6 +350,36 @@ To test the library, install the project dependencies once:
 Then run the tests:
 
     $ npm run test
+
+## Contribute
+
+[Contributions](//github.com/almende/vis/blob/master/misc/how_to_help.md) to the vis.js library are very welcome! [We can't do this alone](//github.com/almende/vis/blob/master/misc/we_need_help.md).
+
+### Contributors
+
+This project exists thanks to all the people who already contributed.
+<a href="graphs/contributors"><img src="https://opencollective.com/vis/contributors.svg?width=890" /></a>
+
+### Backers
+
+Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/vis#backer)]
+
+<a href="https://opencollective.com/vis#backers" target="_blank"><img src="https://opencollective.com/vis/backers.svg?width=890"></a>
+
+### Sponsors
+
+Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/vis#sponsor)]
+
+<a href="https://opencollective.com/vis/sponsor/0/website" target="_blank"><img src="https://opencollective.com/vis/sponsor/0/avatar.svg"></a>
+<a href="https://opencollective.com/vis/sponsor/1/website" target="_blank"><img src="https://opencollective.com/vis/sponsor/1/avatar.svg"></a>
+<a href="https://opencollective.com/vis/sponsor/2/website" target="_blank"><img src="https://opencollective.com/vis/sponsor/2/avatar.svg"></a>
+<a href="https://opencollective.com/vis/sponsor/3/website" target="_blank"><img src="https://opencollective.com/vis/sponsor/3/avatar.svg"></a>
+<a href="https://opencollective.com/vis/sponsor/4/website" target="_blank"><img src="https://opencollective.com/vis/sponsor/4/avatar.svg"></a>
+<a href="https://opencollective.com/vis/sponsor/5/website" target="_blank"><img src="https://opencollective.com/vis/sponsor/5/avatar.svg"></a>
+<a href="https://opencollective.com/vis/sponsor/6/website" target="_blank"><img src="https://opencollective.com/vis/sponsor/6/avatar.svg"></a>
+<a href="https://opencollective.com/vis/sponsor/7/website" target="_blank"><img src="https://opencollective.com/vis/sponsor/7/avatar.svg"></a>
+<a href="https://opencollective.com/vis/sponsor/8/website" target="_blank"><img src="https://opencollective.com/vis/sponsor/8/avatar.svg"></a>
+<a href="https://opencollective.com/vis/sponsor/9/website" target="_blank"><img src="https://opencollective.com/vis/sponsor/9/avatar.svg"></a>
 
 ## License
 
